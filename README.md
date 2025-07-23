@@ -1,8 +1,6 @@
 # NO2 Power Price Forecasting
 
-This project aims to predict **day-ahead electricity prices** for the NO2 zone in Norway using a diverse set of energy-related features. It leverages data from the ENTSO-E API, incorporating load forecasts, renewable generation, net transfer capacities, and more.
-
----
+This project aims to predict **day-ahead electricity prices** for the NO2 zone in Norway u. It leverages data from the ENTSO-E API and tests the performance of various machine learning models. 
 
 ## Features Used
 
