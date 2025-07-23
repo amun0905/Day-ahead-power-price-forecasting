@@ -4,7 +4,7 @@ This project aims to predict **day-ahead electricity prices** for the NO2 zone i
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 - **Day-Ahead Electricity Prices** (target variable)
 - **Load Forecasts** (NO2 + neighboring zones)
@@ -25,7 +25,7 @@ This project aims to predict **day-ahead electricity prices** for the NO2 zone i
 ---
 
 
-### 🔧 Installation
+### Installation
 
 ```bash
 # Clone the repository
