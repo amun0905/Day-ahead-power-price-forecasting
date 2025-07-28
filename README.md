@@ -1,6 +1,6 @@
 # NO2 Power Price Forecasting
 
-This project was a group project in the Energy Data Analysis Module of UCL's masters in Energy Systems and Data Analytics. The project aims to predict day-ahead electricity prices for the NO2 zone in Norway, leverageing data from the ENTSO-E API and testing the performance of various machine learning models. 
+This project was a group project in the Energy Data Analysis Module of UCL's masters in Energy Systems and Data Analytics. The project aims to predict day-ahead electricity prices for the NO2 zone in Norway, leveraging data from the ENTSO-E API and testing the performance of various machine learning models. 
 
 ## Features Used
 
