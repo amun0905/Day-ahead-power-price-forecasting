@@ -16,7 +16,7 @@ This project aims to predict day-ahead electricity prices for the NO2 zone in No
 ## Tools & Technologies
 
 - Python (Pandas, NumPy, Scikit-learn, Seaborn)
-- `entsoe-py` for ENTSO-E API access
+- entsoe-py for ENTSO-E API access
 - Linear Regression, Decision Tree, Random Forest, XGBoost, SVM for prediction
 - Jupyter Notebook for analysis
 
