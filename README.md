@@ -23,13 +23,3 @@ This project was a group project in the Energy Data Analysis Module of UCL's mas
 ---
 
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/no2-power-price-forecasting.git
-cd no2-power-price-forecasting
-
-# Install dependencies
-pip install -r requirements.txt
-
