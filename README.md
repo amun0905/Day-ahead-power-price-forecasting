@@ -56,7 +56,7 @@ All data were retrieved via the ENTSO-e Transparency Platform API, using the Pan
 | Decision Tree | 24.25 | 3.06 | 0.80 | 0.79 |
 | Random Forest | 16.96 | 2.33 | 0.86 | 0.85 |
 | XGBoost | 16.33 | 2.62 | 0.86 | 0.85 |
-| SVM | 15.19** | 2.18 | 0.87 | 0.86 |
+| SVM | 15.19 | 2.18 | 0.87 | 0.86 |
 
 > Best performing model: Support Vector Machine (SVM)  
 > Balanced accuracy, lowest error, and strong generalization to unseen data.
@@ -69,14 +69,3 @@ All data were retrieved via the ENTSO-e Transparency Platform API, using the Pan
 - SVM and XGBoost distributed feature importance more evenly, improving robustness.  
 - All models struggled slightly with extreme price spikes.
 
----
-
-## 🚀 How to Run
-
-### Prerequisites
-- Python 3.10+
-- Recommended environment: Conda or `venv`
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
