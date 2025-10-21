@@ -64,8 +64,11 @@ All data were retrieved via the ENTSO-e Transparency Platform API, using the Pan
 ---
 
 ## Key Insights
+- Load/generation forecasts and the previous day-ahead price are very strong predictors of Day-ahead prices, to the extent that even a linear regression model performs very well.
+- SVM and XGBoost had the lowest MSE and distributed feature importance more evenly, improving robustness
+- All models struggled slightly with extreme price spikes, indicating a need for additional data and/or more complex models. 
 
-- **Prev_Day_DA_prices_NO_2** was the most influential feature in tree-based models.  
-- SVM and XGBoost distributed feature importance more evenly, improving robustness.  
-- All models struggled slightly with extreme price spikes.
+## Limitations and improvements
+
+- The project uses ENTSO-E D-1 generation forecasts as a prediction feature. This is published after gate closure time, meaning in practice this variable cannot be used to predict day-ahead prices before the day-ahead auction has started. This limitation is addressed in the next project "Day-ahead power price forecasting with deep learning", where weather forecasts are used instead of generation forecasts. 
 
